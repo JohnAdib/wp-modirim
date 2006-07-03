@@ -1,0 +1,77 @@
+.tinynav { 
+	display: none; 
+}
+
+
+@media screen and (min-width: 1200px) {
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+.entry-link{display: none}
+article.post .entry-header h1.entry-title, article.hentry .entry-header h1.entry-title, article.page .entry-header h1.entry-title{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+    .tinynav { 
+    	display: inline-block;
+    	min-width: 170px;
+    	width: 70%;
+    	min-height: 30px;
+    	line-height: 35px;
+    	font-size: 0.8em;
+    	height: 35px;
+    	padding:5px 0px;
+    	border-radius: 5px;
+    	background: #444;
+    	border:1px solid #555;
+    	color: #fff;
+    	margin:15px 0px 0;
+    	margin-left: 20%;
+     }
+
+    #kommunity { 
+    	display: none 
+    }
+	a.stickhome{
+		padding-left:10px!important;
+		padding-right: 10px!important;
+		width: 10%;
+		text-align: center;
+	}
+	#masthead .site-branding{
+		text-align: center;
+		padding: 10px 0px;
+	}
+	#masthead .gate{
+		margin:0px 0px 20px 0px;
+		float: none!important;
+		text-align: center;
+	}
+	.stickyhead .sticky-gate{
+		position: absolute;
+		left: 10px;
+		top:0px;
+	}
+	.stickyhead .sticky-gate a{
+		margin-left: 10px;
+	}	
+
+	.intro-box{
+		text-align: center;
+	}
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+}
